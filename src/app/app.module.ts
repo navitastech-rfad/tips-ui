@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { TipsHomeComponent } from './tips-home/tips-home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TipperInformationComponent } from './tipper-information/tipper-information.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TipsHomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    TipperInformationComponent
   ],
   imports: [
     BrowserModule,
