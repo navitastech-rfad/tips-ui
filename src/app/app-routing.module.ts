@@ -11,12 +11,16 @@ import { RouterModule, Routes } from '@angular/router';
 // import { ReportsComponent} from './reports/reports.component';
 import { TipsHomeComponent } from './tips-home/tips-home.component';
 import { TipperInformationComponent } from './tipper-information/tipper-information.component';
+import { TipsConfirmationComponent } from './tips-confirmation/tips-confirmation.component';
 
 
 const routes: Routes = [
     { path: 'tips', component: TipsHomeComponent },
     { path: '', component: TipsHomeComponent },
     { path: 'tipperinfo', component: TipperInformationComponent },
+    { path: 'tipconfirmation', component: TipsConfirmationComponent },
+
+
 
 
 
