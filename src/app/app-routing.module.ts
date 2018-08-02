@@ -10,11 +10,14 @@ import { RouterModule, Routes } from '@angular/router';
 // import { AdminRoomsComponent} from './admin-rooms/admin-rooms.component';
 // import { ReportsComponent} from './reports/reports.component';
 import { TipsHomeComponent } from './tips-home/tips-home.component';
+import { TipperInformationComponent } from './tipper-information/tipper-information.component';
 
 
 const routes: Routes = [
     { path: 'tips', component: TipsHomeComponent },
     { path: '', component: TipsHomeComponent },
+    { path: 'tipperinfo', component: TipperInformationComponent },
+
 
 
   // { path: '', component: ViewConferenceRoomsComponent, canActivate: [AuthGuard]},

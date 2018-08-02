@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule }  from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TipsHomeComponent } from './tips-home/tips-home.component';
@@ -16,7 +17,8 @@ import { TipperInformationComponent } from './tipper-information/tipper-informat
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
