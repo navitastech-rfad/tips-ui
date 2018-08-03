@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  tipUrl: 'http://localhost:8290/tips/'
 };
 
 /*
