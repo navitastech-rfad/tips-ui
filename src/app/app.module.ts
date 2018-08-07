@@ -12,6 +12,7 @@ import { TipService } from './_service/tip.service';
 import { AlertService } from './_service/alert.service';
 import { AlertComponent } from './_directive/alert.component';
 import { HttpModule } from '@angular/http';
+import { UploadModule } from './upload/upload.module';
 
 
 
@@ -28,7 +29,8 @@ import { HttpModule } from '@angular/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    UploadModule
   ],
   providers: [TipService, AlertService],
   bootstrap: [AppComponent]
